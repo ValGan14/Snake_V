@@ -10,10 +10,7 @@ namespace Snake_V
     {
         static void Main(string[] args)
         {
-            Point p1 = new Point();
-            p1.x = 1;
-            p1.y = 3;
-            p1.sym='*';
+            Point p1 = new Point(2,5,'^');
             p1.draw();
             Point p2 = new Point();
             p2.x = 5;
